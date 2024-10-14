@@ -7,5 +7,6 @@
 - 🔭 I’m currently working on Nepfolk,a music plaform for Nepali Folk music.
 - 🌱 I’m currently learning App Development.
 - 👯 I’m looking to collaborate on My project "Nepfolk". You can contact me throught arjanchaudharyy@gmail.com
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arjanchaudharyy&layout=compact)
 
 
