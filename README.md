@@ -1,12 +1,11 @@
 ## Hiii,
 
 
- My name is Arjan Chaudhary and I am a student,web-developer and a python programmer besed in Biratnagar, Nepal...
+I am 14. I am a self Proclaimed Cybersecurity Researcher and Certified Batman. 
 
-
-- 🔭 I’m currently working on Nepfolk,a music plaform for Nepali Folk music.
-- 🌱 I’m currently learning App Development.
-- 👯 I’m looking to collaborate on My project "Nepfolk". You can contact me throught arjanchaudharyy@gmail.com
+- 🔭 I’m currently working on CTX_EXPLOITER. A SAAS Model for APPSEC.
+- 🌱 I’m currently working at PathMate as an AppSec Lead.
+- 👯 I have ethically hacked Google, MSI, Stanford, NBA, EA, Twitch & 20-25 more corps. 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arjanchaudharyy&layout=compact)
 
 
