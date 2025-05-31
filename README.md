@@ -1,7 +1,7 @@
 # Yoo, 
 I'm 14 and a self proclaimed cybersecurity researcher.
 <br>I'm building the next gen SAAS model for AppSec.  <br>
-I have hacked Google, MSI, EA, NBA, Stanford, Twitch and 20-25 more corps <br>
+I have hacked Google, MSI, EA, NBA, Stanford, Twitch, SOS and 20-25 more corps in the last 55 days. <br>
 
 
 ## 🌐 Socials:
@@ -14,5 +14,5 @@ I have hacked Google, MSI, EA, NBA, Stanford, Twitch and 20-25 more corps <br>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=arjanchaudharyy&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=arjanchaudharyy&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=arjanchaudharyy&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+  ![visitors](https://visitor-badge.laobi.icu/badge?page_id=arjanchaudharyy)
+
