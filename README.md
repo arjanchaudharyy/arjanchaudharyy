@@ -1,7 +1,7 @@
 # Yoo, 
-I'm 14 and a self proclaimed cybersecurity researcher.
-<br>I'm building the next gen SAAS model for AppSec.  <br>
-I have hacked Google, MSI, EA, NBA, Stanford, Twitch, SOS and 20-25 more corps in the last 55 days. <br>
+am cool asf ig  <br>
+www.arjan.lol
+cool@arjan.lol
 
 
 ## 🌐 Socials:
