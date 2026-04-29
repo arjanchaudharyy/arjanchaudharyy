@@ -2,8 +2,7 @@
 am cool asf ig  <br>
 www.arjan.lol
 cool@arjan.lol
-#go checkout : 
-https://www.inventionnovelty.com/
+
 
 
 ## 🌐 Socials:
