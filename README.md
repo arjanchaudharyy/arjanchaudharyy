@@ -12,4 +12,9 @@ built the #1 Nepali TTS and STT models at [Naamche Labs](https://naamchelabs.com
 - [PagePatch](https://github.com/arjanchaudharyy/patch): a browser extension to permanently hide or rewrite anything on any website, editable with Claude Code
 - a bunch of security tooling and half-finished experiments across my repos
 
-more at [arjanchaudharyy.lol](https://arjanchaudharyy.lol)
+**papers**
+
+- [Merge-Based Vocabulary Extension Stalls at the Pre-Tokenizer: An English-Preserving Repair for Nepali](https://arxiv.org/abs/2610.33016) (arXiv 2026, solo author): [code](https://github.com/arjanchaudharyy/nepali-pretokenizer-repair), repaired Nepali tokenizers for [Qwen3](https://huggingface.co/Aarjan/Qwen3-Nepali-Repaired-Tokenizer-32k) and [Llama 3.2](https://huggingface.co/Aarjan/Llama-3.2-Nepali-Repaired-Tokenizer-32k)
+- [Baselines Before Architecture: Evaluating Coding Agents for Autonomous Penetration Testing](https://arxiv.org/abs/2607.13085) (arXiv 2026, with Ananda Dhakal and Krish Neupane; [60k+ views on X](https://x.com/dhakal_ananda/status/2080548412282544206))
+
+more at [arjanchaudharyy.com](https://www.arjanchaudharyy.com)
