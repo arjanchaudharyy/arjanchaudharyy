@@ -9,6 +9,7 @@ import base64, html, io, math, os, random
 from fontTools import subset
 from fontTools.ttLib import TTFont
 
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTS = os.path.join(ROOT, "tools", "fonts")
 OUT = os.path.join(ROOT, "assets")
@@ -194,7 +195,7 @@ def hero(theme):
     eye_cx, eye_cy = 1000, 262
 
     # ---- timeline --------------------------------------------------------
-    stops = [("hey,", 1.35), ("i'm", .22), ("arjan.", 1.3), ("i", .22), ("build", 1.5), ("and", .22), ("break", 1.45), ("things.", .4)]
+    stops = [("hey,", 1.35), ("i'm", .22), ("arjan.", 1.4), ("i", .22), ("build", 1.5), ("and", .22), ("break", 1.45), ("things.", .4)]
     t_spawn = .45
     times, tcur = {}, t_spawn + .8           # first hop is the long one out of the eye
     for i, (w, hold) in enumerate(stops):
@@ -390,7 +391,7 @@ def hero(theme):
         lines += "".join(f'<path d="M{dx} {dy} q-7 -9 0 -18" fill="none" stroke="{acc}" stroke-width="2.4" stroke-linecap="round"/>'
                          for dx, dy in ((-40, -6), (-48, 2)))
         lop = anim("opacity", [(0, 0), (w0, 0), (w0 + .08, 1), (beats[-2], 1), (beats[-1], 0), (T, 0)])
-        hx, hy = d["w"] / 2 + 28, -142
+        hx, hy = 0, -142                               # centred over the word
         out.append(f'<g transform="translate({hx:.0f} {hy})"><g transform="translate(0 46)"><g>{pop}'
                    f'<g transform="translate(0 -46)"><g opacity="0">{lop}{lines}</g>'
                    f'<g>{sanim(bob, "translate")}<g>{sanim(wrist, "rotate")}{hand}</g></g></g></g></g></g>')
@@ -398,11 +399,14 @@ def hero(theme):
 
     def fx_nepali(w, d, tl):
         """arjan. becomes आर्जन while the bead sits on it."""
-        out_ = anim("opacity", [(0, 1), (tl + .05, 1), (tl + .2, 0), (tl + 1.1, 0), (tl + 1.25, 1), (T, 1)])
-        in_ = anim("opacity", [(0, 0), (tl + .05, 0), (tl + .2, 1), (tl + 1.1, 1), (tl + 1.25, 0), (T, 0)])
+        on, off = tl + .2, tl + 1.15
+        out_ = anim("opacity", [(0, 1), (tl + .05, 1), (on, 0), (off, 0), (off + .15, 1), (T, 1)])
+        in_ = anim("opacity", [(0, 0), (tl + .05, 0), (on, 1), (off, 1), (off + .15, 0), (T, 0)])
         latin = f'<g>{out_}{txt(w, -d["w"] / 2, "", t["fg"])}</g>'
-        deva = f'<g opacity="0">{in_}{a.text(-d["w"] / 2 + 2, 2, "आर्जन", "deva", 64, "acc")}</g>'
-        return place(d, latin + deva)
+        deva = f'<g opacity="0">{in_}{a.text(-d["w"] / 2 + 2, 0, "आर्जन", "deva", 50, "acc")}</g>'
+        name = place(d, latin + deva)
+
+        return name
 
     def fx_blueprint(w, d, tl):
         """build traces its own outline like a blueprint, then fills in solid."""
